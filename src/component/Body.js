@@ -28,7 +28,7 @@ export const Body = () =>{
       
         <button className="search-btn" onClick={()=>{
             // need to filter the data
-            const data = filterData(searchText,restaurants);
+            const data = filterData(searchText,restaurantList);
             setRestaurants(data);
 
             // if(searchClicked === "true"){
